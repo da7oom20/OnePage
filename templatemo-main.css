@@ -6,6 +6,170 @@ https://templatemo.com/tm-526-vanilla
 
 */
 
+
+.card {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #202022;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.25); }
+  .card > hr {
+    margin-right: 0;
+    margin-left: 0; }
+  .card > .list-group {
+    border-top: inherit;
+    border-bottom: inherit; }
+    .card > .list-group:first-child {
+      border-top-width: 0;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem; }
+    .card > .list-group:last-child {
+      border-bottom-width: 0;
+      border-bottom-right-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem; }
+  .card > .card-header + .list-group,
+  .card > .list-group + .card-footer {
+    border-top: 0; }
+
+.card-content:before {
+  content: '';
+  position: absolute;
+  content: '';
+  height: 100px;
+  width: 2px;
+  background: linear-gradient(100deg, #FF971D, transparent); }
+.card-content:after {
+  content: '';
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100px;
+  background: linear-gradient(50deg, #FF971D, transparent); }    
+
+.card-body {
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1.5rem 1.5rem; }
+
+.card-title {
+  margin-bottom: 0.5rem; }
+
+.card-subtitle {
+  margin-top: -0.25rem;
+  margin-bottom: 0; }
+
+.card-text:last-child {
+  margin-bottom: 0; }
+
+.card-link + .card-link {
+  margin-left: 1.5rem; }
+
+.card-header {
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 0;
+  background-color: #202022;
+  border-bottom: 0 solid rgba(0, 0, 0, 0.125); }
+  .card-header:first-child {
+    border-radius: 0.5rem 0.5rem 0 0; }
+
+.card-footer {
+  padding: 1.5rem 1.5rem;
+  background-color: #202022;
+  border-top: 0 solid rgba(0, 0, 0, 0.125); }
+  .card-footer:last-child {
+    border-radius: 0 0 0.5rem 0.5rem; }
+
+.card-header-tabs {
+  margin-right: -0.75rem;
+  margin-bottom: -1.5rem;
+  margin-left: -0.75rem;
+  border-bottom: 0; }
+  .card-header-tabs .nav-link.active {
+    background-color: #202022;
+    border-bottom-color: #202022; }
+
+.card-header-pills {
+  margin-right: -0.75rem;
+  margin-left: -0.75rem; }
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  border-radius: 0.5rem; }
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 100%; }
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem; }
+
+.card-img,
+.card-img-bottom {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem; }
+
+.card-group > .card {
+  margin-bottom: 1rem; }
+
+@media (min-width: 576px) {
+  .card-group {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+    .card-group > .card {
+      -webkit-flex: 1 0 0%;
+          -ms-flex: 1 0 0%;
+              flex: 1 0 0%;
+      margin-bottom: 0; }
+      .card-group > .card + .card {
+        margin-left: 0;
+        border-left: 0; }
+      .card-group > .card:not(:last-child) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0; }
+        .card-group > .card:not(:last-child) .card-img-top,
+        .card-group > .card:not(:last-child) .card-header {
+          border-top-right-radius: 0; }
+        .card-group > .card:not(:last-child) .card-img-bottom,
+        .card-group > .card:not(:last-child) .card-footer {
+          border-bottom-right-radius: 0; }
+      .card-group > .card:not(:first-child) {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0; }
+        .card-group > .card:not(:first-child) .card-img-top,
+        .card-group > .card:not(:first-child) .card-header {
+          border-top-left-radius: 0; }
+        .card-group > .card:not(:first-child) .card-img-bottom,
+        .card-group > .card:not(:first-child) .card-footer {
+          border-bottom-left-radius: 0; } 
+        
+}
+
+.percentage{
+  color: green;
+}
+
 p {
   font-size: 15px;
   line-height: 25px;
@@ -20,6 +184,7 @@ section {
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
+  color: #fff;
 }
 
 a { color: #3CC; }
@@ -171,7 +336,7 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-color: #131419;
+  background-color: #161617;
 }
 
 .baner-content h1 {
@@ -208,7 +373,7 @@ a:hover { color: #FF0; }
   padding-right: 15px;
   padding-top: 30vh;
   /* background-image: url(../img/2nd-section.jpg); */
-  background-color: #131419;
+  background-color: #161617;
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -504,7 +669,7 @@ text-align: justify;
 .projects-content {
   padding-top: 7vh;
   /* background-image: url(../img/3rd-section.jpg); */
-  background-color: #131419;
+  background-color: #161617;
 }
 
 .projects-content .item img {
@@ -691,7 +856,7 @@ section {
 
 header {
   text-align: center;
-  background-color: #131419;
+  background-color: #161617;
   padding: 10px 0px 80px 0px;
 }
 
