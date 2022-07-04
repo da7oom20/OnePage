@@ -7,6 +7,34 @@ https://templatemo.com/tm-526-vanilla
 */
 
 
+/* To have tooltip hint */
+
+/* Guiding the customers */
+
+.success {
+  color: #4b881c !important;
+}
+
+[data-md-tooltip] {
+  position: relative;
+}[data-md-tooltip]:before {
+    content: attr(data-md-tooltip);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    padding: 8px;
+    transform: translateX(-50%) scale(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: top;    background: #616161e6;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}[data-md-tooltip]:hover:before {
+  transform: translateX(-50%) scale(1); 
+}
+
 .card {
   position: relative;
   display: -webkit-flex;
@@ -46,14 +74,14 @@ https://templatemo.com/tm-526-vanilla
   content: '';
   height: 100px;
   width: 2px;
-  background: linear-gradient(100deg, #FF971D, transparent); }
+  background: linear-gradient(100deg, #4b881c, transparent); }
 .card-content:after {
   content: '';
   position: absolute;
   content: '';
   height: 2px;
   width: 100px;
-  background: linear-gradient(50deg, #FF971D, transparent); }    
+  background: linear-gradient(50deg, #4b881c, transparent); }    
 
 .card-body {
   -webkit-flex: 1 1 auto;
@@ -314,8 +342,22 @@ a:hover { color: #FF0; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+
+.primary-button-monthly a {
+  display: inline-block;
+  background-color: #4b881c;
+  padding: 7.5px 12px;
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 11px;
@@ -349,7 +391,7 @@ a:hover { color: #FF0; }
 }
 
 .baner-content em {
-  color: #ff7d27;
+  color: #4b881c;
   font-weight: 600;
   font-style: normal;
 }
@@ -394,20 +436,20 @@ a:hover { color: #FF0; }
 .title h4 {
   font-size: 34px;
   font-weight: 500;
-  color: #ff7d27;
+  color: #4b881c;
 }
 
 .projects-content .line-dec {
   width: 400px;
   height: 2px;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   margin: 20px auto 20px auto;
 }
 
 .projects-content .line-dec-bottom {
   width: 400px;
   height: 2px;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   margin: 20px auto auto;
 }
 
@@ -418,7 +460,7 @@ h4, .h4 {
 .left-text .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   margin: 20px 0px 20px 0px;
 }
 
@@ -454,7 +496,7 @@ h4, .h4 {
 .service-content .service-item .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   margin: 20px auto 15px auto;
 }
 
@@ -660,7 +702,7 @@ text-align: justify;
 .projects-content .service-item .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   margin: 20px auto 15px auto;
 }
 
@@ -696,7 +738,7 @@ text-align: justify;
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
-  color: #ff7d27;
+  color: #4b881c;
 }
 
 .owl-pagination {
@@ -764,11 +806,11 @@ section {
 }
 
 .tabs a:hover {
-  color: #ff7d27;
+  color: #4b881c;
 }
 
 .tabs .active {
-  border:4px solid #ff7d27;
+  border:4px solid #4b881c;
 }
 
 .tabgroup div  {
@@ -834,7 +876,7 @@ section {
 
 #contact button {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   padding: 15px 24px;
   width: 100%;
   border-radius: 3px;
@@ -881,7 +923,7 @@ header ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   color: #282b2f;
   border-radius: 50%;
   text-decoration: none;
@@ -941,7 +983,7 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #4b881c;
   color: #282b2f;
   border-radius: 50%;
   text-decoration: none;
@@ -998,7 +1040,7 @@ footer em {
   .left-text .line-dec {
     width: 45px;
     height: 3px;
-    background-color: #ff7d27;
+    background-color: #4b881c;
     margin: 20px auto 20px auto;
   }
 
