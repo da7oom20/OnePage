@@ -17,7 +17,7 @@ https://templatemo.com/tm-526-vanilla
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #202022;
+  background-color: #c8c8c8;
   background-clip: border-box;
   border: 0 solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
@@ -77,14 +77,14 @@ https://templatemo.com/tm-526-vanilla
 .card-header {
   padding: 1.5rem 1.5rem;
   margin-bottom: 0;
-  background-color: #202022;
+  background-color: #c8c8c8;
   border-bottom: 0 solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
     border-radius: 0.5rem 0.5rem 0 0; }
 
 .card-footer {
   padding: 1.5rem 1.5rem;
-  background-color: #202022;
+  background-color: #c8c8c8;
   border-top: 0 solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
     border-radius: 0 0 0.5rem 0.5rem; }
@@ -95,8 +95,8 @@ https://templatemo.com/tm-526-vanilla
   margin-left: -0.75rem;
   border-bottom: 0; }
   .card-header-tabs .nav-link.active {
-    background-color: #202022;
-    border-bottom-color: #202022; }
+    background-color: #c8c8c8;
+    border-bottom-color: #c8c8c8; }
 
 .card-header-pills {
   margin-right: -0.75rem;
