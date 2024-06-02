@@ -12,7 +12,7 @@ https://templatemo.com/tm-526-vanilla
 /* Guiding the customers */
 
 .success {
-  color: #4b881c !important;
+  color: #0072bc !important;
 }
 
 [data-md-tooltip] {
@@ -45,7 +45,7 @@ https://templatemo.com/tm-526-vanilla
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #202022;
+  background-color: #afafaf;
   background-clip: border-box;
   border: 0 solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
@@ -74,14 +74,14 @@ https://templatemo.com/tm-526-vanilla
   content: '';
   height: 100px;
   width: 2px;
-  background: linear-gradient(100deg, #4b881c, transparent); }
+  background: linear-gradient(100deg, #0072bc, transparent); }
 .card-content:after {
   content: '';
   position: absolute;
   content: '';
   height: 2px;
   width: 100px;
-  background: linear-gradient(50deg, #4b881c, transparent); }    
+  background: linear-gradient(50deg, #0072bc, transparent); }    
 
 .card-body {
   -webkit-flex: 1 1 auto;
@@ -212,7 +212,7 @@ section {
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
-  color: #fff;
+  color: #001973;
 }
 
 a { color: #3CC; }
@@ -342,7 +342,7 @@ a:hover { color: #FF0; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #4b881c;
+  background-color: #0072bc;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -378,20 +378,20 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-color: #161617;
+  background-color: #c8c8c8;
 }
 
 .baner-content h1 {
   margin-top: 0px;
   font-size: 64px;
-  color: #fff;
+  color: black;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 
 .baner-content em {
-  color: #4b881c;
+  color: #0072bc;
   font-weight: 600;
   font-style: normal;
 }
@@ -401,7 +401,7 @@ a:hover { color: #FF0; }
   margin-top: -20px;
   font-weight: 300;
   font-size: 48px;
-  color: #fff;
+  color: black;
 }
 
 .baner-content .primary-button {
@@ -415,7 +415,7 @@ a:hover { color: #FF0; }
   padding-right: 15px;
   padding-top: 30vh;
   /* background-image: url(../img/2nd-section.jpg); */
-  background-color: #161617;
+  background-color: #c8c8c8;
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -425,7 +425,7 @@ a:hover { color: #FF0; }
 .left-text h4 {
   font-size: 24px;
   font-weight: 500;
-  color: #fff;
+  color: #0072bc;
 }
 
 .title {
@@ -460,12 +460,12 @@ h4, .h4 {
 .left-text .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #4b881c;
+  background-color: #0072bc;
   margin: 20px 0px 20px 0px;
 }
 
 .left-text p {
-  color: #fff;
+  color: black;
 }
 
 .left-text ul {
@@ -711,7 +711,7 @@ text-align: justify;
 .projects-content {
   padding-top: 7vh;
   /* background-image: url(../img/3rd-section.jpg); */
-  background-color: #161617;
+  background-color: #c8c8c8;
 }
 
 .projects-content .item img {
@@ -898,7 +898,7 @@ section {
 
 header {
   text-align: center;
-  background-color: #161617;
+  background-color: #c8c8c8;
   padding: 10px 0px 80px 0px;
 }
 
